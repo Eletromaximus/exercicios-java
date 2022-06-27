@@ -19,7 +19,7 @@ public class ExemploOrdenacaoMap {
       put("Harari, Yuval Naah", new Livro("21 Lições Para o Século 21", 432));
     }};
 
-    for(Map.Entry<String, Livro> livro:meusLivros.entrySet()) {
+    for(Map.Entry<String, Livro> livro : meusLivros.entrySet()) {
       System.out.println(livro.getKey() + " - " + livro.getValue().getNome());
     }
 
